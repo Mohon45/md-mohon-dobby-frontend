@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-box {
+  box-shadow: 1px 1px 15px 10px rgba(150, 150, 150, 0.2);
+}
+.sidebar {
+  box-shadow: 6px 0px 15px 9px rgba(150, 150, 150, 0.2);
+}
+
+#fileInput {
+  display: none;
+}
+#icon {
+  /* width: 30px; */
+  cursor: pointer;
+}
