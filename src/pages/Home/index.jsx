@@ -111,7 +111,11 @@ const Home = () => {
           <div className="grid grid-cols-4 gap-4 my-6">
             {filterData?.map((item, index) => (
               <div>
-                <img src={item.image} alt="" className="rounded h-[200px]" />
+                <img
+                  src={item.image}
+                  alt=""
+                  className="rounded w-[310px] h-[200px]"
+                />
               </div>
             ))}
           </div>
